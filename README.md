@@ -2,7 +2,7 @@
 
 - Load URLs or upload text files containing URLs to fetch article content.
 - Process article content through LangChain's UnstructuredURL Loader
-- Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
+- Construct an embedding vector using Gemini AI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
 
@@ -23,7 +23,7 @@
 ```bash
   pip install -r requirements.txt
 ```
-4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
+4.Set up your Gemini AI API key by creating a .env file in the project root and adding your API
 
 ```bash
   GEMINI_API_KEY=your_api_key_here
@@ -57,5 +57,5 @@ streamlit run main.py
 
 - main.py: The main Streamlit application script.
 - requirements.txt: A list of required Python packages for the project.
-- faiss_store_openai.pkl: A pickle file to store the FAISS index.
+- faiss_store_gemini.pkl: A pickle file to store the FAISS index.
 - .env: Configuration file for storing your Gemini API key.
