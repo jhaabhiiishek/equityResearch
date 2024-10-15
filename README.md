@@ -16,7 +16,7 @@
 2.Navigate to the project directory:
 
 ```bash
-  cd 2_news_research_tool_project
+  cd equityResearch
 ```
 3. Install the required dependencies using pip:
 
